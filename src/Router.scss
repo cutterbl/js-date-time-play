@@ -1,0 +1,85 @@
+@import "scss-reset/reset";
+
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.66rem;
+  font-weight: 400;
+  color: #3e3e3e;
+}
+
+.headings {
+  line-height: 1.33rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2.625rem;
+  @extend .headings;
+}
+
+h2 {
+  font-size: 2.25rem;
+  @extend .headings;
+}
+
+h3 {
+  font-size: 1.875rem;
+  @extend .headings;
+}
+
+h4 {
+  font-size: 1.5rem;
+  @extend .headings;
+}
+
+h5 {
+  font-size: 1.25rem;
+  @extend .headings;
+}
+
+h6 {
+  font-size: 1.125rem;
+  @extend .headings;
+}
+
+a {
+  color: #00689c;
+}
+
+nav {
+  font-weight: 500;
+}
+
+.codeBlock {
+  display: inline-block;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  color: blue;
+  background-color: #e6e6e6;
+  border-radius: 0.25rem;
+  white-space: pre-line;
+
+  &.inline {
+    margin-top: 0;
+    padding: 0.125rem;
+  }
+}
+
+li:has(code) {
+  padding-bottom: .125rem;
+}
+
+code {
+  @extend .codeBlock;
+}
+
+pre.code {
+  @extend .codeBlock;
+}
+
+strong,
+label {
+  font-weight: 600;
+}

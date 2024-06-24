@@ -1,0 +1,32 @@
+{
+  "dates": [
+    "2024-01-01T15:34:22Z",
+    "2022-10-14T08:34:22Z",
+    "1987-06-06T15:00:00Z",
+    "1969-11-07T02:34:22-05:00",
+    "2001-09-11T12:46:00Z",
+    "1986-01-28T16:39:13Z"
+  ],
+  "locales": [
+    {
+      "name": "Arabic (Saudi Arabia)",
+      "locale": "ar-SA",
+      "timeZone": "Asia/Riyadh"
+    },
+    {
+      "name": "Great Britain",
+      "locale": "en-GB",
+      "timeZone": "Europe/London"
+    },
+    {
+      "name": "Korea (South Korea)",
+      "locale": "ko-KR",
+      "timeZone": "Asia/Seoul"
+    },
+    {
+      "name": "Hyderabad (India)",
+      "locale": "te-in",
+      "timeZone": "Asia/Kolkata"
+    }
+  ]
+}

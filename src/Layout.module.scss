@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+
+  >nav {
+    border-right: 1px solid #e6e6e6;
+    padding: 1rem;
+
+    li {
+      position: relative;
+
+      a {
+        position: relative;
+        display: block;
+        padding: 0.125rem 0;
+      }
+    }
+  }
+
+  >div {
+    position: relative;
+    overflow-y: auto;
+    padding: 1rem;
+  }
+}
